@@ -1,3 +1,4 @@
+
 [
   {
     "id": "main",
@@ -27,7 +28,8 @@
       "title",
       "hero",
       "cards",
-      "columns"
+      "columns",
+	  "finance"
     ]
   },
   {
