@@ -185,5 +185,52 @@
         "valueType": "string"
       }
     ]
-  }
+  },
+  {
+	"id": "finance",
+	"fields": [
+	  {
+       "component": "text",
+	   "valueType": "string",
+	   "name": "title",
+	   "label": "text",
+	   "value": ""
+	  },
+	  {
+	   "component": "text",
+	   "valueType": "string",
+	   "name": "cardTitle",
+	   "lable": "text",
+	   "value": ""
+	  },
+	  {
+	   "component": "text",
+       "valueType": "string",
+	   "name": "cardDescription",
+	   "lable": "text",
+	   "value": ""	   
+	  },
+	  {
+	   "component": "reference",
+       "valueType": "string",
+       "name": "fileReferenceDesktopFrame",
+       "label": "Image",
+       "multi": false
+	  },
+	  {
+	   "component": "reference",
+       "valueType": "string",
+       "name": "fileReferenceArrow",
+       "label": "Image",
+       "multi": false
+	  },
+	  {
+	   "component": "reference",
+       "valueType": "string",
+       "name": "fileReferenceMobileFrame",
+       "label": "Image",
+       "multi": false
+	  }
+  ]
+ }
 ]
